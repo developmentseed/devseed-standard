@@ -3,7 +3,7 @@
 ## Install
 
 ```sh
-npm i -D devseed-standard
+npm i -D developmentseed/devseed-standard
 ```
 
 ## Usage
