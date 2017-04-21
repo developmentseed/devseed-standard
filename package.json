@@ -1,0 +1,37 @@
+{
+  "name": "devseed-standard",
+  "version": "1.0.0",
+  "description": "Development Seed's JavaScript linter.",
+  "main": "index.js",
+  "bin": {
+    "devseed-standard": "./bin/cmd.js"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "dependencies": {
+    "eslint": "~3.19.0",
+    "eslint-config-standard": "10.2.1",
+    "eslint-config-standard-jsx": "4.0.1",
+    "eslint-plugin-import": "~2.2.0",
+    "eslint-plugin-node": "~4.2.2",
+    "eslint-plugin-promise": "~3.5.0",
+    "eslint-plugin-react": "~6.10.0",
+    "eslint-plugin-standard": "~3.0.1",
+    "standard-engine": "~7.0.0"
+  },
+  "license": "MIT",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developmentseed/devseed-standard.git"
+  },
+  "keywords": [
+    "linter"
+  ],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/developmentseed/devseed-standard/issues"
+  },
+  "homepage": "https://github.com/developmentseed/devseed-standard#readme"
+}
