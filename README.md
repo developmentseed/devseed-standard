@@ -8,6 +8,16 @@ npm i -D developmentseed/devseed-standard
 
 ## Usage
 
+Add an npm script:
+
 ```
-devseed-standard
+"scripts": {
+  "lint": "devseed-standard"
+},
+```
+
+Run the script:
+
+```
+npm run lint
 ```
