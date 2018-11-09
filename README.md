@@ -3,10 +3,20 @@
 ## Install
 
 ```sh
-npm i -D developmentseed/devseed-standard
+npm i -D devseed-standard
 ```
 
-## Usage
+## ESlint config file
+
+Create a .eslintrc file:
+
+```json
+{
+  "extends": ["devseed-standard"]
+}
+```
+
+## Cli Usage
 
 Add an npm script:
 
