@@ -1,5 +1,7 @@
 # devseed-standard
 
+> Need to change config rules? See [eslint-config-devseed-standard](https://github.com/developmentseed/eslint-config-devseed-standard)
+
 ## Install
 
 ```sh
@@ -30,4 +32,16 @@ Run the script:
 
 ```
 npm run lint
+```
+
+## Ignoring files
+
+In the project's package.json file:
+
+```json
+"devseed-standard": {
+  "ignore": [
+    "**/whatever/files/"
+  ]
+}
 ```
